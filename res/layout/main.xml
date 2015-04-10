@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/default_bg">
+
+	<cn.nedu.exlistview.PinnedHeaderExpListView android:id="@+id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:cacheColorHint="#00000000"/>
+
+</RelativeLayout>
